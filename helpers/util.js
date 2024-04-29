@@ -18,6 +18,7 @@ const getId = originalUrl => {
  * @param {string} episodeNumber
  */
 const translateEpisode = episodeNumber => {
+  console.log(test);
   let id = 0;
   const episodeInt = parseInt(episodeNumber);
   switch (episodeInt) {
